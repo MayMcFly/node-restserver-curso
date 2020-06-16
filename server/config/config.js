@@ -23,7 +23,4 @@ if (process.env.NODE_ENV === 'dev') {
 }
 //*/
 
-//urlDB = 'mongodb+srv://adminmay:rBQ9pff2pPxlMYDX@clustermay-lk2me.mongodb.net/cafe?retryWrites=true&w=majority';
-
-
 process.env.URLDB = urlDB;
