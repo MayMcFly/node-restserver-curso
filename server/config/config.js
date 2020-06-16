@@ -15,7 +15,7 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'dev';
 // DB
 // ============================
 let urlDB;
-/*
+//*
 if (process.env.NODE_ENV === 'dev') {
     urlDB = 'mongodb://localhost:27017/cafe';
 } else {
@@ -23,7 +23,7 @@ if (process.env.NODE_ENV === 'dev') {
 }
 //*/
 
-urlDB = 'mongodb+srv://adminmay:rBQ9pff2pPxlMYDX@clustermay-lk2me.mongodb.net/cafe?retryWrites=true&w=majority';
+//urlDB = 'mongodb+srv://adminmay:rBQ9pff2pPxlMYDX@clustermay-lk2me.mongodb.net/cafe?retryWrites=true&w=majority';
 
 
 process.env.URLDB = urlDB;
