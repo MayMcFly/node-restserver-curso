@@ -12,7 +12,8 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // parser application/json 
 app.use(bodyParser.json());
 
-app.use(require('./routes/usuario'));
+// Config global rutas
+app.use(require('./routes/index'));
 
 
 //mongoose.connect('mongodb://localhost:27017/cafe', { useNewUrlParser: true, useUnifiedTopology: true });
